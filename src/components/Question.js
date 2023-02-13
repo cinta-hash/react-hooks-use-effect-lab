@@ -17,7 +17,7 @@ function Question({ question, onAnswered }) {
     function cleanUp() {
 			clearTimeout(countDown);
 		};
-	}, [timeRemaining, onAnswered])
+	}, [timeRemaining, onAnswered]);
   
   
   function handleAnswer(isCorrect) {
